@@ -1,0 +1,12 @@
+package:
+  name:  boinc
+  version: "0.0.2"
+
+source:
+  path: ../src
+
+build:
+  number: 1
+   
+about:
+  license: "LGPL 2"
