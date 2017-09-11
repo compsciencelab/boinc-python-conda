@@ -22,6 +22,9 @@
 #mkdir -p "$SP_DIR/boinc"
 #gcc --shared -o "$SP_DIR/boinc/libboinc.so" lib/*.o
 
+./_autosetup
+./configure --enable-pkg-libs LDFLAGS="-lssl -lcrypto"  CFLAGS="-fPIC" CXXFLAGS="-fPIC"
+
 pwd
 ls -laR
 mkdir -p $SP_DIR

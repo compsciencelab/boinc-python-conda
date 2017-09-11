@@ -3,7 +3,8 @@ package:
   version: "0.0.2"
 
 source:
-  path: ../src
+  git_url: http://github.com/BOINC/boinc.git
+  git_rev: 3e63882b05d4bf1e63ebbdbc6bd339371b4ba710
 
 build:
   number: 1
